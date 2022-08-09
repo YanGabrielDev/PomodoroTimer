@@ -4,6 +4,7 @@ import { secondsToTime } from "../utils/secondsToTime";
 import { Button } from "../components/Button/Button";
 import { Timer } from "../components/Timer/Timer";
 import { Pomodoro } from "../styles/GlobalStyles";
+import { Container } from "./styled";
 interface Props {
   pomodoroTime: number;
   shortRestTime: number;
@@ -19,9 +20,11 @@ export function PomodoroTimer(props: Props): JSX.Element {
       <Pomodoro>
         <h2>Working</h2>
         <Timer mainTime={mainTime} />
-        <Button text="Play timer"></Button>
-        <Button text=""></Button>
-        <Button text=""></Button>
+        <Container>
+          <Button text="Play timer"></Button>
+          <Button text="Rest"></Button>
+          <Button text="sflma"></Button>
+        </Container>
       </Pomodoro>
     </div>
   );
