@@ -5,7 +5,11 @@ function App() {
   return (
     <div className="App">
       <>
-        <PomodoroTimer defaultPomodoroTime={1000} />
+        <PomodoroTimer
+          pomodoroTime={3600}
+          shortRestTime={300}
+          longRestTime={900}
+        />
         <GlobalStyles />
       </>
     </div>
