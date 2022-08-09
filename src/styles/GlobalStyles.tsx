@@ -8,8 +8,13 @@ export default createGlobalStyle`
 }
 body{
     font-family: sans-serif;
-    background-color: ${Colors.rest};
-    
+     background-image: url("../assets/image/vai.png"); 
+    /* background: url("https://media.gettyimages.com/photos/belo-horizonte-minas-gerais-brazil-picture-id495598911?s=2048x2048"); */
+    /* background-image: url("../../assets/backImage.jpg"); */
+    /* background-color: ${Colors.rest};     */
+}
+.working{
+  background-color: ${Colors.WOrking};
 }
 `;
 export const Pomodoro = styled.div`
