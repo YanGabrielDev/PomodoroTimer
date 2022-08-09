@@ -17,7 +17,7 @@ export const Pomodoro = styled.div`
   transition: background-color 300ms ease-in-out;
   margin: 50px 20px;
   padding: 20px;
-  border-radius: 5px;
+  border-radius: 16px;
   border-color: ${Colors.whiteColor};
   color: ${Colors.whiteColor};
   text-align: center;
