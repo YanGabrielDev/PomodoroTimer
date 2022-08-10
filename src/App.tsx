@@ -7,9 +7,10 @@ function App() {
     <div>
       <Container>
         <PomodoroTimer
-          pomodoroTime={3600}
-          shortRestTime={300}
+          pomodoroTime={1800}
+          shortRestTime={600}
           longRestTime={900}
+          cycles={4}
         />
         <GlobalStyles />
       </Container>
