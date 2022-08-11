@@ -1,12 +1,12 @@
 import React, { useEffect, useState, useCallback } from "react";
-import { useInterval } from "../hooks/hooks";
-import { secondsToMinutes } from "../utils/secondsToMinutes";
-import { Button } from "../components/Button/Button";
-import { Timer } from "../components/Timer/Timer";
-import { Pomodoro } from "../styles/GlobalStyles";
+import { useInterval } from "../../hooks/hooks";
+import { secondsToMinutes } from "../../utils/secondsToMinutes";
+import { Button } from "../Button/Button";
+import { Timer } from "../Timer/Timer";
+import { Pomodoro } from "../../styles/GlobalStyles";
 import { Container } from "./styled";
 import { arrayBuffer } from "stream/consumers";
-import { secondsToTime } from "../utils/secondsToTime";
+import { secondsToTime } from "../../utils/secondsToTime";
 interface Props {
   pomodoroTime: number;
   shortRestTime: number;

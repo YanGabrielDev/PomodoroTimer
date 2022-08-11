@@ -1,6 +1,6 @@
 import React from "react";
 import GlobalStyles from "./styles/GlobalStyles";
-import { PomodoroTimer } from "./components/pomodoroTimer";
+import { PomodoroTimer } from "./components/Pomodoro/pomodoroTimer";
 import { Container } from "./styles/GlobalStyles";
 function App() {
   return (
